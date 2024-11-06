@@ -26,9 +26,6 @@ The rest of the application behavior aligns with the requirements that were prov
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## NOTE: Outstanding Bug
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+There is a bug involving the "Date of Birth" field in the User Profile page.  The date field is based on the Material UI DateField.  In the edit mode, it does not show the previously-entered value.  I am looking into this, but will not likely update the code for the fix.  I will advise otherwise.
