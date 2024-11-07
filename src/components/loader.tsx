@@ -1,3 +1,4 @@
+'use client';
 import MickeyMagicImage from '@/assets/mickey-magic.gif';
 import Image from 'next/image';
 export default function Loader() {

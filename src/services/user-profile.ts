@@ -1,3 +1,5 @@
+'use client';
+
 import { UserProfile } from '@/types/types';
 import Cookies from 'js-cookie';
 

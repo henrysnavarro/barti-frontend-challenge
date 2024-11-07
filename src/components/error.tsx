@@ -1,3 +1,5 @@
+'use client';
+
 import MickeyBlinkImage from '@/assets/mickey-blink.gif';
 import Image from 'next/image';
 export default function Error() {

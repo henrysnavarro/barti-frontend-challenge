@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from 'react';
 import { DateField } from '@mui/x-date-pickers/DateField';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';

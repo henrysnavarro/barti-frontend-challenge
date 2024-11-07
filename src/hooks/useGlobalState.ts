@@ -1,3 +1,5 @@
+'use client';
+
 import { hookstate, State } from '@hookstate/core';
 import { GlobalState } from '../types/types';
 

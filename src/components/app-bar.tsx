@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import CompanyLogo from '@/assets/logo.png';
 import ProfileIcon from '@/assets/avatar.png';
@@ -57,7 +59,7 @@ export default function AppBar() {
         onChange={handleChange}
         value={appState.searchTerm.get()}
       />
-      <Link href={`/user-profile?mode=${storedUserProfile ? 'view' : 'edit'}`}>
+      <Link href={'/user-profile'}>
         <Image
           src={ProfileIcon}
           alt="Profile Icon"

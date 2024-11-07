@@ -1,3 +1,5 @@
+'use strict';
+'use client';
 /**
  * This interface defines the shape of the data returned by the API
  */

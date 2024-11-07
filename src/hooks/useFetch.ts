@@ -1,3 +1,4 @@
+'use client';
 import { useState, useEffect } from 'react';
 import useAppState from './useAppState';
 import { DisneyCharacter } from '@/types/types';
@@ -73,7 +74,7 @@ const useFetch = () => {
         setTimeout(() => appState.isFetchingCharacters.set(false), 1000);
       } catch (error) {
         appState.fetchError.set(`Could not Fetch Data: ${error}`);
-        console.error(error);
+        console.log(error);
         appState.isFetchingCharacters.set(false);
       }
     };
